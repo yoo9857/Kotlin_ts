@@ -1,7 +1,7 @@
 fun main() {
     
     var names = arrayOf(
-        "HANBIN", "Hans"
+        "HANBINs", "Hans"
     )
     println(names.contentToString())
     println("안녕하세요")
