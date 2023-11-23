@@ -25,9 +25,19 @@ println("arr : ${Arrays.toString(arr)}")
 println("size : ${arr.size}")
 println("sum(): ${arr.sum()}")
 
+var name = listOf(
+"July",
+"mira",
+"jame",
+"popo"
+)
+name.forEach{println(it)}
+
+
+/*
 Go(::b)
 val c: (String)->Unit = { str -> println("$str 람다함수")}
-b(c)
+
 //앞 String형식이 있을 경우 뒷 str:String이 생략 가능
 }
 fun b(str: String){
@@ -36,4 +46,5 @@ fun b(str: String){
 //고차함수
 fun Go(function: (String)->Unit){
     function("b가 호출됨")
+} */
 }
