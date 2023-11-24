@@ -47,4 +47,21 @@ fun b(str: String){
 fun Go(function: (String)->Unit){
     function("b가 호출됨")
 } */
+/*
+fun study2() {
+    var study2(a:Int,b:Int) = a + b
+    
+    
+} */ 
+println(study(2, 5))
+}
+
+fun study(a:Int, b:Int):Int{
+   
+   println(a + b) 
+   // 한 번 사용되고 초기화
+   
+    //  return a + b
+
+ return 0
 }
