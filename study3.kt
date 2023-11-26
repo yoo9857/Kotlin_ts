@@ -13,7 +13,8 @@ Open class Person1 (var name:String, var birthYear:Int){
     }
 
     constructor(name:String) : this(name, 1997){
-    println("보조 생성자가 생성되었습니다")
+    println("보조 생성자가 생성되었습니다") 
+    println("오늘도 빡공하자.")
 }
 
 
