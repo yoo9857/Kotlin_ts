@@ -13,7 +13,7 @@ fun main(){
     println(proGamers)
     proGamers.add("ALEX")
 
-    val a = proGamers[0]
+    val abc = proGamers[0]
     
     var names = arrayOf(
         "HANBINs", "Hans"
